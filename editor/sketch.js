@@ -1,7 +1,7 @@
 const version = "3.6";
 
 const whats_new = `
-added more blocks, and colors are back
+WE RELEASED!
 `;
 
 $("html").on("keydown", (e) => {
