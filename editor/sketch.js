@@ -1,7 +1,7 @@
-const version = "3.6";
+const version = "3.7";
 
 const whats_new = `
-WE RELEASED!
+Some bug fixes.
 `;
 
 $("html").on("keydown", (e) => {
@@ -451,8 +451,8 @@ $("#Export").click(() => {
         workspace.getAllVariables().forEach(v => v.name = Extension_id + "_" + v.name);
         download(
             `
-            // Made with PenguinBuilder ${version}
-            // use PenguinBuilder at "https://chickencuber.github.io/PenguinBuilder/"
+            // Made with Warpforge! ${version}
+            // use WarpForge at "https://Plugin-Warp.github.io/Warpforge/editor/"
             (async function(Scratch) {
                 const blocks = [];
                 const vars = {};
